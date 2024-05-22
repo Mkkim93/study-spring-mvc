@@ -25,5 +25,7 @@ public class HelloServlet extends HttpServlet {
         response.setContentType("text/plain"); // HTML <Head> 내, contentType 입력
         response.setCharacterEncoding("UTF-8");
         response.getWriter().println("Hello " + username); // HTML <Body> 내 데이터(username) 입력
+
+
     }
 }
