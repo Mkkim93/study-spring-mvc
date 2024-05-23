@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class Member {
 
-    private Long id;
+    private Long id; // HTML 에서 데이터 불러오는 법 ${member.id}
 
     private String username;
 
